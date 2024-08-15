@@ -1,0 +1,145 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.photo {
+    max-width: 1920px;
+    width: 100%;
+    background: white;
+}
+
+.photo .imgs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.photo .imgs img {
+    max-width: 341px;
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 975px) {
+    .photo .imgs {
+        flex-wrap: nowrap;
+    }
+
+    .photo .imgs img {
+        max-width: 316px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 720px) {
+    .photo .imgs img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 736px) {
+    .photo .imgs img {
+        max-width: 344px;
+    }
+}
+
+@media (max-width: 645px) {
+    .photo .imgs img {
+        max-width: 174px;
+    }
+}
+
+@media (max-width: 376px) {
+    .photo .imgs img {
+        margin: 1px;
+    }
+}
+
+/* Style for image containers (imgs1, imgs2, etc.) */
+.photo .imgs1,
+.photo .imgs2,
+.photo .imgs3,
+.photo .imgs4,
+.photo .imgs5,
+.photo .imgs6,
+.photo .imgs7,
+.photo .imgs8,
+.photo .imgs9,
+.photo .imgs10 {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@media (max-width: 975px) {
+    .photo .imgs1 img,
+    .photo .imgs2 img,
+    .photo .imgs3 img,
+    .photo .imgs4 img,
+    .photo .imgs5 img,
+    .photo .imgs6 img,
+    .photo .imgs7 img,
+    .photo .imgs8 img,
+    .photo .imgs9 img,
+    .photo .imgs10 img {
+        max-width: 316px;
+    }
+}
+
+@media (max-width: 720px) {
+    .photo .imgs1 img,
+    .photo .imgs2 img,
+    .photo .imgs3 img,
+    .photo .imgs4 img,
+    .photo .imgs5 img,
+    .photo .imgs6 img,
+    .photo .imgs7 img,
+    .photo .imgs8 img,
+    .photo .imgs9 img,
+    .photo .imgs10 img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 736px) {
+    .photo .imgs1 img,
+    .photo .imgs2 img,
+    .photo .imgs3 img,
+    .photo .imgs4 img,
+    .photo .imgs5 img,
+    .photo .imgs6 img,
+    .photo .imgs7 img,
+    .photo .imgs8 img,
+    .photo .imgs9 img,
+    .photo .imgs10 img {
+        max-width: 344px;
+    }
+}
+
+@media (max-width: 645px) {
+    .photo .imgs1 img,
+    .photo .imgs2 img,
+    .photo .imgs3 img,
+    .photo .imgs4 img,
+    .photo .imgs5 img,
+    .photo .imgs6 img,
+    .photo .imgs7 img,
+    .photo .imgs8 img,
+    .photo .imgs9 img,
+    .photo .imgs10 img {
+        max-width: 174px;
+    }
+}
